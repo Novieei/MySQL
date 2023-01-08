@@ -1,1 +1,0 @@
-Personally learning SQL
