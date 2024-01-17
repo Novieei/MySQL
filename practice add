@@ -1,1 +1,13 @@
+1\取最大值
+# 方法1
+# select max(gpa) as gpa
+# from user_profile
+# where university='复旦大学';
+ 
+# 方法2
+select gpa
+from user_profile
+where university='复旦大学'
+order by gpa desc limit 1
 
+2\数学计算（在select时）
