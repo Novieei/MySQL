@@ -11,3 +11,7 @@ where university='复旦大学'
 order by gpa desc limit 1
 
 2\数学计算（在select时）
+select
+  count(gender) as male_num, --count计数
+  round(avg(gpa), 1) as avg_gpa --round保留的小数位数, avg计算平均值
+from user_profile where gender="male";
